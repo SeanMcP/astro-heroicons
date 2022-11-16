@@ -1,6 +1,6 @@
 # astro-heroicons
 
-[![npm](https://img.shields.io/npm/v/astro-emoji.svg)](https://npmjs.com/package/astro-emoji) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/astro-emoji.svg)](https://npmjs.com/package/astro-emoji) [![npm](https://img.shields.io/npm/dt/astro-emoji.svg)](https://npmjs.com/package/astro-emoji)
+[![npm](https://img.shields.io/npm/v/astro-heroicons.svg)](https://npmjs.com/package/astro-heroicons) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/astro-heroicons.svg)](https://npmjs.com/package/astro-heroicons) [![npm](https://img.shields.io/npm/dt/astro-heroicons.svg)](https://npmjs.com/package/astro-heroicons)
 
 👩‍🚀 Heroicons as Astro components
 
