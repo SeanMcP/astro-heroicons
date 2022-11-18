@@ -6,18 +6,26 @@ import {
   rmSync,
   writeFileSync,
 } from "fs";
+import pascalcase from "pascalcase";
 
-const foldersToRead = ["20/solid", "24/solid", "24/outline"];
+const directoryMap = {
+  "20/solid": "mini",
+  "24/outline": "outline",
+  "24/solid": "solid",
+};
 
-foldersToRead.forEach((folder) => {
-  const files = readdirSync(`./node_modules/heroicons/${folder}`);
-  if (existsSync(`./${folder}`)) {
-    rmSync(`./${folder}`, { recursive: true });
+Object.keys(directoryMap).forEach((dir) => {
+  const files = readdirSync(`./node_modules/heroicons/${dir}`);
+  const outDir = `./${directoryMap[dir]}`;
+
+  if (existsSync(outDir)) {
+    rmSync(outDir, { recursive: true });
   }
-  mkdirSync(`./${folder}`, { recursive: true });
+  mkdirSync(outDir, { recursive: true });
+  
   files.forEach((file) => {
     const content = readFileSync(
-      `./node_modules/heroicons/${folder}/${file}`,
+      `./node_modules/heroicons/${dir}/${file}`,
       "utf8"
     );
     const next = content.replace(
@@ -26,10 +34,7 @@ foldersToRead.forEach((folder) => {
     );
 
     const [name] = file.split(".");
-    // regex to convert kebab-case to camelCase
-    let Name = name.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
-    Name = Name.charAt(0).toUpperCase() + Name.slice(1);
 
-    writeFileSync(`./${folder}/${Name}.astro`, next);
+    writeFileSync(`${outDir}/${pascalcase(name)}.astro`, next);
   });
 });

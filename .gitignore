@@ -1,4 +1,7 @@
 node_modules/
 
-20/
-24/
+mini/
+outline/
+solid/
+
+*.tgz

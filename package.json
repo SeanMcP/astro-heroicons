@@ -1,14 +1,14 @@
 {
   "name": "astro-heroicons",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Heroicons as Astro components",
-  "main": "index.js",
   "files": [
-    "20",
-    "24"
+    "mini",
+    "outline",
+    "solid"
   ],
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,6 +20,7 @@
   "author": "Sean McPherson <sean@seanmcp.com> (https://seanmcp.com)",
   "license": "ISC",
   "devDependencies": {
-    "heroicons": "^2.0.13"
+    "heroicons": "^2.0.13",
+    "pascalcase": "^2.0.0"
   }
 }
