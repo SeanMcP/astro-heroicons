@@ -17,8 +17,10 @@
     "heroicons",
     "icons"
   ],
-  "author": "Sean McPherson <sean@seanmcp.com> (https://seanmcp.com)",
-  "license": "ISC",
+  "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
+  "repository": "https://github.com/seanmcp/astro-heroicons",
+  "homepage": "https://github.com/seanmcp/astro-heroicons#readme",
+  "license": "MIT",
   "devDependencies": {
     "heroicons": "^2.0.13",
     "pascalcase": "^2.0.0"
