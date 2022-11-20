@@ -22,16 +22,13 @@ Object.keys(directoryMap).forEach((dir) => {
     rmSync(outDir, { recursive: true });
   }
   mkdirSync(outDir, { recursive: true });
-  
+
   files.forEach((file) => {
     const content = readFileSync(
       `./node_modules/heroicons/${dir}/${file}`,
       "utf8"
     );
-    const next = content.replace(
-      `aria-hidden="true"`,
-      `aria-hidden="true" {...Astro.props}`
-    );
+    const next = content.replace(`<svg `, `<svg {...Astro.props} `);
 
     const [name] = file.split(".");
 
