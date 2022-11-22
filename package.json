@@ -22,6 +22,7 @@
   "homepage": "https://github.com/seanmcp/astro-heroicons#readme",
   "license": "MIT",
   "devDependencies": {
+    "astro": "^1.6.10",
     "heroicons": "^2.0.13",
     "pascalcase": "^2.0.0"
   }

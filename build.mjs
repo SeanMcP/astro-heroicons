@@ -14,6 +14,14 @@ const directoryMap = {
   "24/solid": "solid",
 };
 
+const heading = `---
+import type { HTMLAttributes } from "astro/types";
+
+export type Props = HTMLAttributes<'svg'>
+---
+
+`;
+
 Object.keys(directoryMap).forEach((dir) => {
   const files = readdirSync(`./node_modules/heroicons/${dir}`);
   const outDir = `./${directoryMap[dir]}`;
@@ -32,6 +40,6 @@ Object.keys(directoryMap).forEach((dir) => {
 
     const [name] = file.split(".");
 
-    writeFileSync(`${outDir}/${pascalcase(name)}.astro`, next);
+    writeFileSync(`${outDir}/${pascalcase(name)}.astro`, heading + next);
   });
 });
