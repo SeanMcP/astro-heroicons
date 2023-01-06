@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fixed syntax typo in `README.md` (@ellgreen #6)
+
 ## [0.3.0] - 2022-11-22
 
 - Added exported `Props` type for components
