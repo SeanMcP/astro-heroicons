@@ -20,9 +20,9 @@ Import the icons from `astro-hericons` and add it to your code:
 
 ```jsx
 ---
-import RocketLaunch from 'astro-heroicons/solid/RocketLaunch.astro':
-import ArrowLongRight from 'astro-heroicons/mini/ArrowLongRight.astro':
-import Sparkles from 'astro-heroicons/outline/Sparkles.astro':
+import RocketLaunch from 'astro-heroicons/solid/RocketLaunch.astro';
+import ArrowLongRight from 'astro-heroicons/mini/ArrowLongRight.astro';
+import Sparkles from 'astro-heroicons/outline/Sparkles.astro';
 ---
 
 <p>
