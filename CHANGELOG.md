@@ -7,6 +7,8 @@ and this project is pegged to the [Heroicons release versions](https://github.co
 
 ## [Unreleased]
 
+## [2.1.1] - 2023-12-19
+
 - Fixed syntax typo in `README.md` (@ellgreen #6)
 - Updated to `heroicons@2.1.1` (#7)
 - Changed versioning to match Heroicons (#7)
