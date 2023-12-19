@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Fixed syntax typo in `README.md` (@ellgreen #6)
+- Updated to `heroicons@2.1.1` (#7)
 
 ## [0.3.0] - 2022-11-22
 
