@@ -1,6 +1,6 @@
 {
   "name": "astro-heroicons",
-  "version": "2.1.1",
+  "version": "2.1.5",
   "description": "Heroicons as Astro components",
   "files": [
     "mini",
@@ -23,8 +23,8 @@
   "license": "MIT",
   "devDependencies": {
     "@astrojs/check": "^0.3.3",
-    "astro": "^4.0.6",
-    "heroicons": "^2.1.1",
+    "astro": "^4.12.2",
+    "heroicons": "^2.1.5",
     "pascalcase": "^2.0.0",
     "typescript": "^5.3.3"
   }
