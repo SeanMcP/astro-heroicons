@@ -8,6 +8,7 @@ and this project is pegged to the [Heroicons release versions](https://github.co
 ## [Unreleased]
 
 - Updated to `astro@4.0.6` and added dev dependencies (#9)
+- Updated to `heroicons@2.1.5`
 
 ## [2.1.1] - 2023-12-19
 
