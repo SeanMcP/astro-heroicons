@@ -1,6 +1,6 @@
 {
   "name": "astro-heroicons",
-  "version": "2.1.1",
+  "version": "2.1.5",
   "description": "Heroicons as Astro components",
   "files": [
     "mini",
