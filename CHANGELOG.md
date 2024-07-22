@@ -7,6 +7,10 @@ and this project is pegged to the [Heroicons release versions](https://github.co
 
 ## [Unreleased]
 
+## [2.1.5-1] - 2024-07-22
+
+- Added "micro" icons
+
 ## [2.1.5] - 2024-07-22
 
 - Updated to `astro@4.0.6` and added dev dependencies (#9)

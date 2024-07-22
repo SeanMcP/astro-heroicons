@@ -1,8 +1,9 @@
 {
   "name": "astro-heroicons",
-  "version": "2.1.5",
+  "version": "2.1.5-1",
   "description": "Heroicons as Astro components",
   "files": [
+    "micro",
     "mini",
     "outline",
     "solid"
@@ -22,7 +23,7 @@
   "homepage": "https://github.com/seanmcp/astro-heroicons#readme",
   "license": "MIT",
   "devDependencies": {
-    "@astrojs/check": "^0.3.3",
+    "@astrojs/check": "^0.8.2",
     "astro": "^4.12.2",
     "heroicons": "^2.1.5",
     "pascalcase": "^2.0.0",
