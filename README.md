@@ -20,15 +20,17 @@ Import the icons from `astro-hericons` and add it to your code:
 
 ```jsx
 ---
-import RocketLaunch from 'astro-heroicons/solid/RocketLaunch.astro';
-import ArrowLongRight from 'astro-heroicons/mini/ArrowLongRight.astro';
-import Sparkles from 'astro-heroicons/outline/Sparkles.astro';
+import Bold from 'astro-heroicons/solid/Bold.astro';
+import Italic from 'astro-heroicons/outline/Italic.astro';
+import Underline from 'astro-heroicons/mini/Underline.astro';
+import Strikethrough from 'astro-heroicons/micro/Strikethrough.astro';
 ---
 
 <p>
-  <RocketLaunch />
-  <ArrowLongRight />
-  <Sparkles />
+  <Bold />
+  <Italic />
+  <Underline />
+  <Strikethrough>
 </p>
 ```
 

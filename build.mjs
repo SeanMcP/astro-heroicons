@@ -9,6 +9,7 @@ import {
 import pascalcase from "pascalcase";
 
 const directoryMap = {
+  "16/solid": "micro",
   "20/solid": "mini",
   "24/outline": "outline",
   "24/solid": "solid",
