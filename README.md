@@ -16,7 +16,7 @@ yarn add astro-heroicons
 
 ## Use
 
-Import the icons from `astro-hericons` and add it to your code:
+Import the icons from `astro-heroicons` and add it to your code:
 
 ```jsx
 ---
